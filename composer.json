@@ -1,0 +1,29 @@
+{
+    "name": "skriptoff/posts",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skriptoff",
+            "email": "skriptoff@gmail.com",
+            "homepage": "https://mvoc.ru"
+        }
+    ],
+    "require": {
+        "php": "8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skriptoff\\Posts\\Providers\\PostsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Skriptoff\\Posts\\" : "src"
+        }
+    }
+}
