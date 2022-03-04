@@ -25,5 +25,8 @@
             "App\\": "app/",
             "Skriptoff\\Posts\\" : "src"
         }
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }
